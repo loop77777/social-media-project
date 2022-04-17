@@ -1,0 +1,24 @@
+{
+  "name": "social-media-project",
+  "version": "1.0.0",
+  "description": "<-- social media app using sequelize -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loop77777/social-media-project.git"
+  },
+  "author": "deep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loop77777/social-media-project/issues"
+  },
+  "homepage": "https://github.com/loop77777/social-media-project#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
