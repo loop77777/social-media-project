@@ -8,7 +8,15 @@ async function createAnonUser() {
   return user;
 }
 
-module.exports = { createAnonUser };
+async function getUserById(id) {
+  return await Users.findOne({ where: { id } });
+}
+
+async function getUserByUsername(username) {
+  return await Users.findOne({ where: { username } });
+}
+
+module.exports = { createAnonUser, getUserById, getUserByUsername };
 
 //test code
 

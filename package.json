@@ -2,9 +2,9 @@
   "name": "social-media-project",
   "version": "1.0.0",
   "description": "<-- social media app using sequelize -->",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"  
   },
   "repository": {
     "type": "git",
