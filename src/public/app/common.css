@@ -13,8 +13,9 @@
 #navbar {
     top: 0%;
     position: sticky;
+    z-index: 1;
 }
 
-#content {
+/* #content {
     height: 1920px;
-}
+} */
