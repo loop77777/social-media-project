@@ -35,25 +35,33 @@ src
 ```
 
 ### Frontend (Client Side Code)
+
 ```
-src/public/   
-├── app                # our own frontend js code
-│   └── cbsocial-common.js
-├── components         # html snippets
-│   └── navbar.html
-├── css                 # css library we are using
-│   ├── bootstrap.css
-│   └── fonts           # fonts we are using
-│       ├── muli.css
-│       ├── Muli-Italic.woff2
-│       └── Muli.woff2
-├── index.html          # homepage
-└── js                  # js libraries we are using
+src/public
+├── app                  # our own frontend js code
+│   ├── all-posts.js
+│   ├── common.css
+│   ├── common.js
+│   ├── navbar.js
+│   └── write-post.js
+├── components           # our html snippets
+│   ├── all-posts.html
+│   ├── content.html
+│   ├── footer.html
+│   ├── navbar.html
+│   └── write-post.html
+├── css                  # css library we are using
+│   └── bootstrap.css
+├── fonts                # fonts we are using
+│   ├── muli.css
+│   ├── Muli-Italic.woff2
+│   └── Muli.woff2
+├── index.html           # homepage
+└── js                   # js libraries we are using
     ├── bootstap.js
     ├── jquery-3.4.1.js
     └── popper.js
 ```
-
 
 ## Business logic
 

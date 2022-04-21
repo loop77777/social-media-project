@@ -7,6 +7,7 @@
     position: sticky;
     bottom: 0%;
     border: none;
+    top: auto;
 }
 
 
@@ -19,3 +20,12 @@
 /* #content {
     height: 1920px;
 } */
+
+#writepost {
+    min-height: 100vh;
+}
+
+#writepost form {
+    margin-top: 5rem;
+    padding: 3rem;   
+}
