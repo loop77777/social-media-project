@@ -1,8 +1,10 @@
-let submitbutton = $("#btnSubmit");
+const submitbutton = $("#btnSubmit");
 $("#userId").val(currentUser.username);
 submitbutton.click(() => {
   createPost();
 });
+
+
 
 function createPost() {
   userId = currentUser.id;
@@ -11,8 +13,8 @@ function createPost() {
 
   $.post("/api/posts", { userId, title, body }, (create) => {
     if (create) {
-      console.log(create);
-      window.location("/");
+      console.log("successfully created the post");
+      window.location.href = "/";
     } else {
       console.log("Need title and body to create post");
     }

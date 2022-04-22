@@ -22,7 +22,6 @@ function loadPosts() {
        </div> 
         `)
         );
-        console.log(post);
       }
     }
   });
