@@ -19,7 +19,7 @@ const OBJECTS = [
   "Thermometer",
   "Bones",
   "Mop",
-  "Flower pot",
+  "Flower-pot",
 ];
 
 function genRandomUsername() {

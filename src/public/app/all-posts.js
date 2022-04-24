@@ -14,7 +14,7 @@ function loadPosts() {
            <p class="card-text" id="post-description">${post.body.substr(
              0,
              240
-           )}<a href="#">... read more</a> </p>
+           )}<a href="#">... read more</a></p>
            <a href="#" class="card-link">Comment</a>
            <a href="#" class="card-link">Like</a>
        </div>
@@ -23,7 +23,7 @@ function loadPosts() {
         `)
         );
       }
+      console.log(posts);
     }
   });
 }
-

@@ -8,6 +8,7 @@ route.get("/", async (req, res) => {
   res.status(200).send(posts);
 });
 
+
 route.post("/", async (req, res) => {
   const { userId, title, body } = req.body;
   if (!userId || !title || !body) {

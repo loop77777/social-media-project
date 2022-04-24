@@ -1,5 +1,4 @@
 const { Posts, Users } = require("../db/models");
-
 async function createNewPost(userId, title, body) {
   const post = await Posts.create({
     title,
@@ -15,8 +14,7 @@ async function createNewPost(userId, title, body) {
  *
  */
 
-async function findAllPosts(query) {
-  // Todo: Handle query params
+async function findAllPosts() {
   const posts = await Posts.findAll({
     include: [Users],
   });
